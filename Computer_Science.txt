@@ -1,0 +1,22 @@
+
+// main function
+fn main(){
+let c=gcd(119,544);// call to value operation
+
+println!("The gcd of 119 and 544 is {}", c);// printing or display the value gratest common division between m and n
+// output: 17
+
+}
+
+
+// greatest common dision function gcd 
+fn gcd(a:isize, b:mut isize)->isize
+{
+
+//loop operation 
+     while(b>0){
+                   (a,b)=(b,a%b)
+               }// exit when remender is 0
+      aa
+
+}
